@@ -15,6 +15,38 @@
     vertical-align: middle;
 }
 
+.footer{
+    position:fixed;
+    bottom:0;
+    left: 0;
+    color:black;
+    width: 100%;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    padding-bottom: 15px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: black;
+}
+
+#footer_left{
+    float: left;
+}
+
+#footer_left a{
+    padding-left: 25px;
+}
+
+#footer_right{
+    float: right;
+}
+
+#footer_right a{
+    padding-right: 25px;
+}
+
 body{
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
@@ -43,9 +75,11 @@ a:hover{
 
 .search_bar{
     text-align: left;
-    width: 25%;
+    width: 28.2%;
     height: 32px;
-    border-radius: 15px;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1;
 }
 
 .search_buttons{
@@ -76,4 +110,38 @@ a:hover{
     font-size: 13px;
     border-radius: 3px;
     padding: 8px 14px;
+}
+
+#fadein{
+    opacity: 0.6;
+    transition: 0s;
+}
+
+#fadein:hover{
+    opacity: 1;
+}
+
+input, select , textarea{
+    font-family: inherit;
+    font-size: 16px;
+    color:rgba(0, 0, 0, 0.87);
+    line-height: 40px;
+    text-indent: 5px;
+}
+
+input:focus, input:hover{
+    outline: none;
+    box-shadow: 0px 0px 4px 8px #f3f3f3;
+}
+
+input{
+    background: url(/home/rebs/the_odin_project/google-homepage/mag-mic-search.png) no-repeat scroll 5px 7px;
+    padding-left: 30px;
+}
+
+#region{
+    padding-left: 25px;
+    font-size: 15px;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
 }
